@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LiveRestaurant (15) (com.packtpub.cookbook.liverestaurant.r-1.8):war exploded">
+    <output-path>$PROJECT_DIR$/chapterOneProjects/LiveRestaurant_R-1.8/target/LiveRestaurant</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>LiveRestaurant (15) (com.packtpub.cookbook.liverestaurant.r-1.8)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LiveRestaurant (15) (com.packtpub.cookbook.liverestaurant.r-1.8)" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/chapterOneProjects/LiveRestaurant_R-1.8/target/LiveRestaurant/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="LiveRestaurant (15) (com.packtpub.cookbook.liverestaurant.r-1.8)/web/Web" />
+    </root>
+  </artifact>
+</component>

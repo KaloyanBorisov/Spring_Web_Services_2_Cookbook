@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LiveRestaurant (16) (com.packtpub.cookbook.liverestaurant.r-1.9):war">
+    <output-path>$PROJECT_DIR$/chapterOneProjects/LiveRestaurant_R-1.9/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LiveRestaurant (16) (com.packtpub.cookbook.liverestaurant.r-1.9)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LiveRestaurant.war">
+      <element id="artifact" artifact-name="LiveRestaurant (16) (com.packtpub.cookbook.liverestaurant.r-1.9):war exploded" />
+    </root>
+  </artifact>
+</component>
